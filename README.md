@@ -4,7 +4,7 @@ This project consists in implementing a machine learning model to predict custom
 
 - Out of 29 features present in dataset,  we've selected 15 features after the data preparation phase based on Features correlation and features variances.
 
-- Used 74/26 train/test split, SMOT for oversampling and Robust Scaling.
+- Used 74/26 train/test split, SMOT for oversampling and Robust Scaler for scaling.
 
 - We Tried 7 classification models : SVM , XGboost, Logistic Regression , KNN ,Naive Bayes , Decision Tree and Random Forest
 **XGboost** prediction gave us around 87% accuracy for customer churn prediction and that has still scope for better prediction after optimization.
